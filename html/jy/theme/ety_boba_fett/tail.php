@@ -30,6 +30,8 @@ if(G5_COMMUNITY_USE === false) {
 	<script type="text/javascript" src="<?php echo G5_THEME_URL?>/js/bootstrap-dropdownhover.js"></script>
 	<script type="text/javascript" src="<?php echo G5_THEME_URL?>/js/custom.js"></script>
 
+	<script type="text/javascript" src="<?php echo G5_THEME_URL?>/jyy/jyy.js"></script>
+
 
 	<script>
 		$(document).ready(function () {

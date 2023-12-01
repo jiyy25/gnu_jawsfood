@@ -122,6 +122,9 @@ if(!defined('G5_IS_ADMIN'))
 <link href="<?php echo G5_THEME_URL?>/css/modern-business.css" rel="stylesheet">
 <link href="<?php echo G5_THEME_URL?>/css/ety.css" rel="stylesheet">
 
+<link href="<?php echo G5_THEME_URL?>/jyy/jyy.css" rel="stylesheet">
+
+
 
 </head>
 <body<?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?>>
