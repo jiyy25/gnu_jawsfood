@@ -11,7 +11,7 @@ if(G5_COMMUNITY_USE === false) {
     return;
 }
 ?>
-
+</div>
 	<?php include_once(G5_THEME_PATH.'/footer.php')?>
 
 

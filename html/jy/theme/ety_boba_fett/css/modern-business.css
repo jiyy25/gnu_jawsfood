@@ -659,7 +659,6 @@ footer
 	/* 모바일 1 슬라이드 크기 조절 */
 
 
-	.logo{width: 130px;}
 	.main .carousel-control-prev-icon{ width:20px; height:20px; }
 	.main .carousel-control-next-icon{ width:20px; height:20px; }
 	.carousel-caption-text {
@@ -707,7 +706,7 @@ footer
 @media only screen and (min-width: 321px) and (max-width: 768px){
 
 	/* 모바일 2 슬라이드 크기 조절 */
-	.logo{width: 130px;}
+	
 	.main .carousel-control-prev-icon{ width:20px; height:20px; }
 	.main .carousel-control-next-icon{ width:20px; height:20px; }
 	.carousel-caption-text {
@@ -749,7 +748,7 @@ footer
 /* 태블릿 */
 @media only screen and (min-width: 769px) and (max-width: 1200px){
 
-	.logo{width: 200px;}	
+	
 
 	/* 태블릿등 슬라이드 크기 조절 */
 	.main .carousel-control-prev-icon{ width:50px; height:50px; }
@@ -801,8 +800,7 @@ footer
 
 /* 데스크탑 */
 @media only screen and (min-width: 1201px) {
-
-	.logo{width: 200px;}	
+	
 
 	/* DESKTOP 슬라이드 크기 조절 */
 	.main .carousel-control-prev-icon{ width:50px; height:50px; }

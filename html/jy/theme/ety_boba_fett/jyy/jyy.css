@@ -1,9 +1,144 @@
-
 body,
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Noto Sans KR';
     font-weight: 400;
 }
 
+.mainpage>.container {
+    width: auto !important;
+    max-width: none !important;
+    padding: 0;
+}
 
+/* .mainpage .navbar .container {
+    max-width: inherit !important;
+} */
+
+.subpage.set .ety-mt-main {
+    display: none;
+}
+
+/* 각페이지를 bo_table의 이름으로 인식할 수 있다. */
+
+.top-line {
+    display: none;
+}
+
+.navbar.fixed-top {
+    top: 0;
+    background-color: transparent !important;
+    border-bottom: solid 1px #fff;
+    box-shadow: none;
+}
+
+.navbar-nav li {
+    padding: 20px 24px 24px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.nav-item .nav-link {
+    color: white;
+}
+
+.navbar-brand .logo {
+    width: 33vw !important;
+    max-width: 134px !important;
+    /* 원사이즈 */
+}
+
+.carousel-caption-text h3,
+.carousel-caption-text p {
+    display: none;
+}
+
+.ety-main {
+    display: none;
+}
+
+.btnBox .carousel-indicators,
+.btnBox .carousel-control-next,
+.btnBox .carousel-control-prev {
+    position: unset;
+}
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+    border-radius: 50%;
+    background-color: #ffffff77;
+} */
+
+.btnBox {
+    position: absolute;
+    display: flex;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 9999;
+    align-items: center;
+}
+
+.btnBox>* {
+    position: unset !important;
+    margin: 0;
+}
+
+.btnBox>a {
+    background-color: #ffffff9d;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.btnBox>a>span{
+    display: none !important;
+}
+
+.btnBox ol {
+    margin: 0 20px;
+}
+
+
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-image: none;
+}
+
+.carousel-control-prev::before {
+    content: '\F284';
+    font-family: bootstrap-icons !important;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.carousel-control-next::before {
+    content: '\F285';
+    font-family: bootstrap-icons !important;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: auto 5px;
+}
+.carousel-indicators li.active{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #000;
+    transition: .8s;
+}
 

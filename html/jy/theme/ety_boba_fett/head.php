@@ -63,6 +63,7 @@ if(defined('_INDEX_')) {
 }
 </style>
 <div class="ety-main"></div>
+<div class="container">
 
 
 
