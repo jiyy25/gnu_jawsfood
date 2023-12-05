@@ -34,6 +34,7 @@ h6 {
     background-color: transparent !important;
     border-bottom: solid 1px #fff;
     box-shadow: none;
+    z-index: 999999999;
 }
 
 .navbar-nav li {
@@ -99,7 +100,7 @@ h6 {
     display: block;
 }
 
-.btnBox>a>span{
+.btnBox>a>span {
     display: none !important;
 }
 
@@ -135,10 +136,51 @@ h6 {
     border: 2px solid #fff;
     margin: auto 5px;
 }
-.carousel-indicators li.active{
+
+.carousel-indicators li.active {
     width: 15px;
     height: 15px;
     border: 2px solid #000;
     transition: .8s;
 }
 
+/* blackMode */
+
+.blackmode .nav-item .nav-link,
+.mouseblackmode .nav-item .nav-link {
+    color: black;
+}
+
+.blackmode .navbar.fixed-top,
+.mouseblackmode .navbar.fixed-top {
+    border-bottom: 1px solid black;
+    background-color: #fff !important;
+    transition: .3s;
+}
+
+#jyy_gnb .navbar-brand {
+    max-width: 134px !important;
+    /* 이거이상 커지지 마 */
+    display: block;
+    width: 30vw;
+    /* 화면을 줄였을 때, 30% 유지할 것이닷 ..!!!!!!!!!!!*/
+}
+
+#jyy_gnb .navbar-brand::after {
+    content: "";
+    display: block;
+    /* width100%를 엄마에서 가져온다. */
+
+    height: 0;
+    padding-top: 27%;
+    /* 높이를 width에 맞춰서 반응형 처리 */
+    background: url("http://www.jawsfood.co.kr/images/common/logo1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.blackmode #jyy_gnb .navbar-brand::after,
+.mouseblackmode #jyy_gnb .navbar-brand::after {
+    background: url("http://www.jawsfood.co.kr/images/common/logo2.png");
+}
