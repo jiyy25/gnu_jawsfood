@@ -184,3 +184,22 @@ h6 {
 .mouseblackmode #jyy_gnb .navbar-brand::after {
     background: url("http://www.jawsfood.co.kr/images/common/logo2.png");
 }
+
+.main_boba_info a{
+    color: #fff;
+}
+.main_boba_info0{
+ background-color: darkblue;
+}
+
+.main_boba_info1{
+ background-color: lightblue;
+}
+
+.main_boba_info2{
+    background-color: blue;
+}
+
+.main_boba_info3{
+    background-color: aliceblue;
+}

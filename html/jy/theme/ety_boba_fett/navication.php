@@ -43,7 +43,7 @@
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-white bg-white fixed-top" id="jyy_gnb">
   <div class="container">
-	<?php echo latest('pic_list','logo', 1,100); ?>
+	<?php echo latest('pic_list','logo', 2,100); ?>
 	<!-- <a class="navbar-brand" href="<?php echo G5_URL?>">
 	<img src="http://www.jawsfood.co.kr/images/common/logo1.png" class="logo">
 	<span class="sr-only">죠스떡볶이</span>
