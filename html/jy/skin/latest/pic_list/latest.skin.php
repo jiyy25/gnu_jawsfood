@@ -23,7 +23,7 @@ $list_count = (is_array($list) && $list) ? count($list) : 0;
                 $thumb['alt'] = '이미지가 없습니다.';
             }
             // $img_content = '<img src="'.$img.'" alt="'.$list[$i]['subject'].'" >';
-            $img_link_html = '<a href="http://'.$list[$i]['wr_link1'].'" class="lt_img" ><img src="'.$img.'" alt="'.$list[$i]['subject'].'" ></a>';
+            $img_link_html = '<a href="http://'.$list[$i]['wr_link1'].'" class="'.$bo_table.$i.'" ><img src="'.$img.'" alt="'.$list[$i]['subject'].'" ></a>';
     
 
     ?>

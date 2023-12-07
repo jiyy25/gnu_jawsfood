@@ -144,6 +144,15 @@ h6 {
     transition: .8s;
 }
 
+/* logo */
+.mainpage .logo0 {
+    display: none !important;
+}
+
+.subpage .logo1 {
+    display: none !important;
+}
+
 /* blackMode */
 
 .blackmode .nav-item .nav-link,
@@ -185,30 +194,50 @@ h6 {
     background: url("http://www.jawsfood.co.kr/images/common/logo2.png");
 }
 
-.main_boba_info a{
+.main_boba_info a {
     color: #fff;
 }
-.main_boba_info0{
- background-color: darkblue;
+
+.main_boba_info0 {
+    background-color: darkblue;
 }
 
-.main_boba_info1{
- background-color: lightblue;
+.main_boba_info1 {
+    background-color: lightblue;
 }
 
-.main_boba_info2{
+.main_boba_info2 {
     background-color: blue;
 }
 
-.main_boba_info3{
+.main_boba_info3 {
     background-color: aliceblue;
 }
 
 /* subpage */
-.subpage .navbar.fixed-top{
+.subpage .navbar.fixed-top {
     background-color: #000 !important
 }
 
-.subpage .ety-main{
+.subpage .ety-main {
     display: block;
+    margin-bottom: 130px;
+}
+
+i.fa+.sound_only {
+/* 폰트어썸을 지워주면서 사라진 아이콘대신 옆에있던 숨겨져있던 span태그를 살려줌. */
+    /* display: inline-block !important; */
+    position: unset;
+    /* top: 0; */
+    /* left: 0; */
+    /* margin: 0 !important; */
+    padding: 0 8px !important;
+    font-size: 14px;
+    line-height: 1;
+    /* border: 0 !important; */
+    overflow: visible !important;
+}
+
+.btn_bo_user li{
+    width: auto;
 }
