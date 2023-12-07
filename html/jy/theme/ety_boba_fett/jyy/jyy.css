@@ -203,3 +203,12 @@ h6 {
 .main_boba_info3{
     background-color: aliceblue;
 }
+
+/* subpage */
+.subpage .navbar.fixed-top{
+    background-color: #000 !important
+}
+
+.subpage .ety-main{
+    display: block;
+}
