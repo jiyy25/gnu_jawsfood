@@ -21,17 +21,12 @@ include_once(G5_THEME_PATH.'/head.php');
 
 
 
-<!-------------------------- 슬라이드 -------------------------->
-<?php echo latest('pic_block','admin_main_banner',3,100); ?>
-<!-------------------------- ./슬라이드 -------------------------->
+<?php echo latest('sns','jaws_comubanner',10,200); ?>
 
-
-
-
-
-
-<!-------------------------- 아이콘박스 -------------------------->
 <div class="margin-top-60"></div>
+
+
+
 <div class="container">
 	<div class="center-heading ks4">
 		<h2>BOBA FETT</h2>
@@ -114,26 +109,10 @@ include_once(G5_THEME_PATH.'/head.php');
 
 <div class="margin-top-60"></div>
 <div class="container-fluid" style="padding:0;margin:0px;">
+<!-- 이 안의 태그를 youtube 스킨의 for문으로 반드시 넣어주시고 -->
+<!-- 값이 들어가는 echo문으로 연동하기 -->
+<?php echo latest('utub','main_utub',1,200); ?>
 
-<div class="row" style="margin:0px;">
-		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 no-padding">
-			<img src="https://via.placeholder.com/1920x1080" style="max-width: 100%;">	
-
-		</div>
-		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 no-padding bg-gray-2">
-			<div class="a-box">
-				<h2 class="ks4 margin-bottom-20">BOBA FETT</h2>
-				<p class="ks4">
-				보바펫 유료테마를 출시하였습니다.<br>
-				유료버전과 무료버전은 작업의 차이가 많기 때문에 믹스하거나 섞어서 사용할 수 없습니다.
-				</p>
-
-				<div class="margin-top-20 margin-bottom-20">
-					<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='https://sir.kr/cmall/1654181164'">유료테마 바로가기</button>
-				</div>
-			</div>
-		</div><!-- /col -->
-	</div><!-- /row -->
 </div><!-- /container -->
 
 
