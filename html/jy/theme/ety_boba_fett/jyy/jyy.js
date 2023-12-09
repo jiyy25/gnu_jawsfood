@@ -3,20 +3,25 @@ $(document).ready(function () {
     $(window).on('scroll', function () {
         // console.log($(window).scrollTop())
         if ($(window).scrollTop() > 80) {
-            $('body').addClass('blackmode no')
-        
+            $('body.mainpage ').addClass('blackmode no')
+
             // $(".logo").attr('src',"http://www.jawsfood.co.kr/images/common/logo2.png")
         } else {
-            $('body').removeClass('blackmode no')
-          
+            $('body.mainpage ').removeClass('blackmode no')
+
             // $(".logo").attr('src',"http://www.jawsfood.co.kr/images/common/logo1.png")
         }
     })
 
-    $("#jyy_gnb").on('mouseenter', function () {
-        $('body').addClass('mouseblackmode')
+    $(".mainpage #jyy_gnb").on('mouseenter', function () {
+        $('body').addClass('blackmode no')
+
     }).on('mouseleave', function () {
-        $('body').removeClass('mouseblackmode')
+        if($(window).scrollTop()>80){
+            $('body').addClass('no')
+        }else{
+            $('body').removeClass('no blackmode')
+        }
     })
 
 })

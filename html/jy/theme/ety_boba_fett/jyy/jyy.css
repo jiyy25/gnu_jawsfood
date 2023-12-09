@@ -149,6 +149,15 @@ h6 {
     display: none !important;
 }
 
+.mainpage.no .logo0 {
+    display: block !important;
+}
+
+
+.mainpage.no .logo1 {
+    display: none !important;
+}
+
 .subpage .logo1 {
     display: none !important;
 }
@@ -225,7 +234,7 @@ h6 {
 }
 
 i.fa+.sound_only {
-/* 폰트어썸을 지워주면서 사라진 아이콘대신 옆에있던 숨겨져있던 span태그를 살려줌. */
+    /* 폰트어썸을 지워주면서 사라진 아이콘대신 옆에있던 숨겨져있던 span태그를 살려줌. */
     /* display: inline-block !important; */
     position: unset;
     /* top: 0; */
@@ -238,6 +247,6 @@ i.fa+.sound_only {
     overflow: visible !important;
 }
 
-.btn_bo_user li{
+.btn_bo_user li {
     width: auto;
 }
